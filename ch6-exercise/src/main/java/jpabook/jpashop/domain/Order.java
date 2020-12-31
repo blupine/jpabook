@@ -24,6 +24,10 @@ public class Order {
     @Enumerated(EnumType.STRING) // EnumType.ORDINAL은 쓰면 안된다
     private OrderStatus status;
 
+    @OneToOne
+    @JoinColumn(name = "DELIVERY_ID")
+    private Delivery delivery;
+
     public void addOrderItem(OrderItem orderItem){ // 연관관계 편의 메소드
         orderItems.add(orderItem);
         orderItem.setOrder(this);
