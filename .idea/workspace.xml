@@ -23,9 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5638f703-9975-481c-8234-bb71b9fb211b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch6-exercise/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ch6-exercise/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch6-exercise/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch6-exercise/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609391039479</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1609391227195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609391227195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +159,8 @@
     <MESSAGE value="[Add] 실전예제 2번 - 양방향 연관관계" />
     <MESSAGE value="[Add] 실전예제 2번" />
     <MESSAGE value="iniital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="iniital commit" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1344" y="260" key="#Project_Structure" timestamp="1609387842405">
@@ -169,10 +178,10 @@
     </state>
     <state x="-1100" y="352" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1200/0.0.1194.834@-1920.0.1920.1200" timestamp="1609390191537" />
     <state x="1093" y="422" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/2560.0.1920.1200@0.0.2560.1440" timestamp="1609310933146" />
-    <state x="-1920" y="0" width="1920" height="1200" key="CommitChangelistDialog2" timestamp="1609391039265">
+    <state x="-1920" y="0" width="1920" height="1200" key="CommitChangelistDialog2" timestamp="1609391227004">
       <screen x="-1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="-1920" y="0" width="1920" height="1200" key="CommitChangelistDialog2/-1920.0.1920.1200/0.0.1194.834@-1920.0.1920.1200" timestamp="1609391039265" />
+    <state x="-1920" y="0" width="1920" height="1200" key="CommitChangelistDialog2/-1920.0.1920.1200/0.0.1194.834@-1920.0.1920.1200" timestamp="1609391227004" />
     <state x="-876" y="311" key="CommitChangelistDialog2/-1920.0.1920.1200/0.25.1194.809@-1920.0.1920.1200" timestamp="1609390936634" />
     <state x="3394" y="501" key="Github.ShareDialog" timestamp="1609306220255">
       <screen x="2560" y="0" width="1920" height="1200" />
@@ -207,10 +216,10 @@
       <screen x="-1920" y="0" width="1920" height="1200" />
     </state>
     <state x="-1472" y="178" key="SettingsEditor/-1920.0.1920.1200/0.0.1194.834@-1920.0.1920.1200" timestamp="1609388617373" />
-    <state x="-1360" y="337" key="Vcs.Push.Dialog.v2" timestamp="1609391049166">
+    <state x="-1360" y="337" key="Vcs.Push.Dialog.v2" timestamp="1609391241053">
       <screen x="-1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="-1360" y="337" key="Vcs.Push.Dialog.v2/-1920.0.1920.1200/0.0.1194.834@-1920.0.1920.1200" timestamp="1609391049166" />
+    <state x="-1360" y="337" key="Vcs.Push.Dialog.v2/-1920.0.1920.1200/0.0.1194.834@-1920.0.1920.1200" timestamp="1609391241053" />
     <state x="945" y="352" width="670" height="676" key="search.everywhere.popup" timestamp="1609311012572">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
