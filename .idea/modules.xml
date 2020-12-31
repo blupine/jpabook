@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/jpabook.iml" filepath="$PROJECT_DIR$/.idea/jpabook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch6-exercise/ch6-exercise.iml" filepath="$PROJECT_DIR$/ch6-exercise/ch6-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpabook.iml" filepath="$PROJECT_DIR$/jpabook.iml" />
     </modules>
   </component>
 </project>
