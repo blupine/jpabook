@@ -17,7 +17,7 @@ public class Category {
     @OneToMany(mappedBy = "parent")
     private List<Category> child;
 
-    @ManyToMany(mappedBy = "categories")
+    @ManyToMany
     @JoinTable(name = "CATEGORY_ITEM",
             joinColumns = @JoinColumn(name = "CATEGORY_ID"),
             inverseJoinColumns = @JoinColumn(name = "ITEM_ID"))
