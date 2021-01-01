@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "DTYPE") // default name = DTYPE
 public abstract class Item {
     @Id @GeneratedValue
@@ -33,5 +33,21 @@ public abstract class Item {
 
     public int getStockQuantity() {
         return stockQuantity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setStockQuantity(int stockQuantity) {
+        this.stockQuantity = stockQuantity;
+    }
+
+    public void setCategories(List<Category> categories) {
+        this.categories = categories;
     }
 }
