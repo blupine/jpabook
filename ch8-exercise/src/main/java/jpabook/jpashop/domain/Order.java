@@ -16,11 +16,11 @@ public class Order extends BaseEntity{
     @JoinColumn(name = "MEMBER_ID")
     private Member member;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL) // 지연 로딩, 영속성 전이
     @JoinColumn(name = "DELIVERY_ID")
     private Delivery delivery;
 
-    @OneToMany(mappedBy = "order") // 양방향 연관관계
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL) // 양방향 연관관계 // 영속성 전이
     private List<OrderItem> orderItems = new ArrayList<>();
 
     private LocalDateTime orderDate;
