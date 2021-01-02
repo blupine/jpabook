@@ -12,9 +12,13 @@ public class Order extends BaseEntity{
     @Column(name = "ORDER_ID")
     private Long id;
 
-    @ManyToOne // 연관관계의 주인
+    @ManyToOne(fetch = FetchType.LAZY) // 연관관계의 주인
     @JoinColumn(name = "MEMBER_ID")
     private Member member;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "DELIVERY_ID")
+    private Delivery delivery;
 
     @OneToMany(mappedBy = "order") // 양방향 연관관계
     private List<OrderItem> orderItems = new ArrayList<>();
@@ -24,9 +28,7 @@ public class Order extends BaseEntity{
     @Enumerated(EnumType.STRING) // EnumType.ORDINAL은 쓰면 안된다
     private OrderStatus status;
 
-    @OneToOne
-    @JoinColumn(name = "DELIVERY_ID")
-    private Delivery delivery;
+
 
     public void addOrderItem(OrderItem orderItem){ // 연관관계 편의 메소드
         orderItems.add(orderItem);
